@@ -104,6 +104,12 @@ Config::define('SECURE_AUTH_SALT', env('SECURE_AUTH_SALT'));
 Config::define('LOGGED_IN_SALT', env('LOGGED_IN_SALT'));
 Config::define('NONCE_SALT', env('NONCE_SALT'));
 
+/** ================================
+ * Language
+ * Leave blank for American English
+ */
+Config::define( 'WPLANG', env('WPLANG'));
+
 /**
  * Custom Settings
  */

@@ -1,18 +1,24 @@
 # Application
-web/app/plugins/*
+# web/app/plugins/*
 !web/app/plugins/.gitkeep
 web/app/mu-plugins/*/
-web/app/themes/twentytwentythree/
 web/app/upgrade
 web/app/uploads/*
 !web/app/uploads/.gitkeep
 web/app/cache/*
+web/app/themes/twentytwentythree/
+web/app/plugins/advanced-custom-fields/
+web/app/plugins/contact-form-7/
 
 # WordPress
 web/wp
 web/.htaccess
 
+# Docker
+laradock/
+
 # Logs
+log/
 *.log
 
 # Dotenv
